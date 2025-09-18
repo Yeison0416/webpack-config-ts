@@ -1,5 +1,5 @@
 # webpack-config
-This repo shows the first set up of a project to manage its dependencies. It uses Webpack like the the build bundler and dependency manager. 
+This repo shows the first set up of a project to manage its dependencies. It uses Webpack like the the build bundler and dependency manager. It supports ts, scss and handlebars.
 # Quick start Instructions
 Run **npm install** to install necessary dependencies.
 
