@@ -1,8 +1,56 @@
-# webpack-config
-This repo shows the first set up of a project to manage its dependencies. It uses Webpack like the the build bundler and dependency manager. It supports ts, scss and handlebars.
-# Quick start Instructions
-Run **npm install** to install necessary dependencies.
+# Webpack Config TypeScript Starter
 
-# Reference
-https://www.freecodecamp.org/news/creating-a-production-ready-webpack-4-config-from-scratch/
+A professional starter project for **TypeScript**, **Handlebars**, and **SCSS/SASS** applications using **Webpack** as the bundler. This setup provides a modular, maintainable, and modern frontend workflow ready for development and production.
+
+---
+
+## Features
+
+- TypeScript support with full type safety
+- Handlebars templates precompiled and ready to use
+- SCSS/SASS modular styles
+- Webpack development server with hot-reload
+- Production-ready bundling and optimization
+- Easy-to-extend project structure
+
+## Getting Started
+
+### Install Dependencies
+
+`npm install`
+
+### Run Development Server
+
+`npm start`
+
+- Opens a local dev server
+
+- Supports live reloading for scripts, styles, and templates
+
+### Build for Production
+
+`npm run build`
+
+- Generates optimized bundle in dist/
+
+- Compiles TypeScript, SCSS, and Handlebars templates
+
+## Usage
+
+1. Add your TypeScript code inside src/scripts.
+
+2. Place SCSS styles in src/styles.
+
+3. Add Handlebars templates in src/templates.
+
+4. Import and use templates in TypeScript like this:
+
+```
+import template from './templates/my-template.hbs';
+const html = template({ key: 'value' });
+document.body.innerHTML = html;
+```
+
+
+
 
