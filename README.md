@@ -50,7 +50,3 @@ import template from './templates/my-template.hbs';
 const html = template({ key: 'value' });
 document.body.innerHTML = html;
 ```
-
-
-
-
